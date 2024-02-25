@@ -88,12 +88,13 @@ main > p {
     font-size: 1.2em;
     text-align: center;
     line-height: 1.3em;
-    color: white;
+    color: lightblue;
 }
 
 main  img {
     margin: auto;
     display: block;
+    min-width: 50%;
     max-width: 100%;
     box-shadow: 7px 7px 10px var(--corheader);
     margin-bottom: 30px;
