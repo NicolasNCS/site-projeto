@@ -94,8 +94,8 @@ main > p {
 main  img {
     margin: auto;
     display: block;
-    min-width: 50%;
-    max-width: 100%;
+    min-width: 300px;
+    max-width: 400px;
     box-shadow: 7px 7px 10px var(--corheader);
     margin-bottom: 30px;
 }
@@ -123,5 +123,5 @@ footer {
     border-radius: 10px;
     text-align: center;
     margin: 13px 3px -5px 3px;
-    color: #FFA07A;
+    color: lightblue;
 }
