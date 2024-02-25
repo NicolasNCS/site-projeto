@@ -84,10 +84,17 @@ main h3::before {
     padding: 2px;
 }
 
+main > p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.3em;
+    color: white;
+}
+
 main  img {
     margin: auto;
     display: block;
-    max-width: 30%;
+    max-width: 100%;
     box-shadow: 7px 7px 10px var(--corheader);
     margin-bottom: 30px;
 }
