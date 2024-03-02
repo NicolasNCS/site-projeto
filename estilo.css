@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: rgb(73, 128, 100);
+    background-color: #027288;
 }
 
 header {
@@ -34,7 +34,7 @@ header > h1 {
 }
 
 nav {
-    background-color: var(--cornav);
+    background: linear-gradient(180deg, rgba(0,132,158,1) 10%, rgba(2,114,136,0.7049194677871149) 100%);
     padding-bottom: 10px;
 }
 
@@ -46,8 +46,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: rgb(126, 132, 185);
-    color: rgb(30, 100, 68);
+    background-color: var(--corfundo);
+    color: #ebe989;
     transition-duration: 500ms;
     border-radius: 5px;
 }
@@ -84,11 +84,20 @@ main h3::before {
     padding: 2px;
 }
 
-main > p {
+main > div > p {
     font-size: 1.2em;
     text-align: center;
-    line-height: 1.3em;
+    line-height: 1.2em;
     color: lightblue;
+}
+
+main > div {
+    background-color: var(--corfundo);
+    height: 600px;
+    width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 main  img {
@@ -109,13 +118,6 @@ main > button {
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
-}
-
-main > button:hover {
-    background-color: var(--corheader);
-    color: white;
-    transition-duration: 500ms;
-    border-color: white;
 }
 
 footer {
