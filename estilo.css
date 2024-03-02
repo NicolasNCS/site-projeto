@@ -100,8 +100,9 @@ main > div {
 }
 
 main  img {
-    margin: auto;
+    margin: 0;
     display: block;
+    min-height: 100px;
     max-width: 300px;
     box-shadow: 7px 7px 10px var(--corheader);
     margin-bottom: 30px;
