@@ -103,7 +103,7 @@ main > div {
 main  img {
     margin: auto;
     display: block;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 400px;
     box-shadow: 7px 7px 10px var(--corheader);
     margin-bottom: 30px;
