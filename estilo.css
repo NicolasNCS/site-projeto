@@ -93,7 +93,7 @@ main > div > p {
 
 main > div {
     max-height: 700px;
-    max-width: 300px;
+    max-width: 350px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
