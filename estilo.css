@@ -94,7 +94,7 @@ main > div > p {
 main > div {
     background-color: var(--corfundo);
     height: 600px;
-    width: 400px;
+    width: 300px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
