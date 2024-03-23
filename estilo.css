@@ -6,10 +6,17 @@
 }
 
 :root {
-    --corfundo: #004B5A; 
-    --corheader: #00849E;
-    --corbody: #b66f05; 
-    --cornav: #00849E;
+    --corfundo: #17a56a; 
+    --letrasconteudo: #074105;
+
+    --corheader: #10c772;
+    --letraheader: #014406;
+
+    --corbody:  #0e5839; 
+    --letrabody: #B3D9FF;
+
+    --cornav: #10c772;
+    --letranav: #014406;
 
     --fontetitulo: rubikbubbles;
 }
@@ -20,7 +27,7 @@
 }
 
 body {
-    background-color: #027288;
+    background-color: var(--corbody);
 }
 
 header {
@@ -30,26 +37,28 @@ header {
 
 header > h1 {
     padding: 10px;
-    color: #ebe989;
+    color: var(--letraheader);
 }
 
 nav {
-    background: linear-gradient(180deg, rgba(0,132,158,1) 10%, rgba(2,114,136,0.7049194677871149) 100%);
-    padding-bottom: 10px;
+    background-color: var(--cornav);
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 nav > a {
     text-decoration: none;
     font-weight: bolder;
     padding: 10px;
-    color: #bbb964;
+    color: var(--letranav);
 }
 
 nav > a:hover {
-    background-color: var(--corfundo);
-    color: #ebe989;
-    transition-duration: 500ms;
-    border-radius: 5px;
+    background-color: var(--corbody);
+    color: lightgreen;
+    transition-duration: 300ms;
+    border-radius: 20px;
 }
 
 main {
@@ -58,7 +67,7 @@ main {
     margin: auto;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 main > h2 {
@@ -66,7 +75,7 @@ main > h2 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: rgb(122, 161, 206);
+    color: var(--letrasconteudo);
 }
 
 main > h3 {
@@ -76,7 +85,7 @@ main > h3 {
     line-height: 25px;
     text-align: center;
     padding-top: 10px;
-    color: rgb(122, 161, 206);
+    color: var(--letrasconteudo);
 }
 
 main h3::before {
@@ -84,20 +93,19 @@ main h3::before {
     padding: 2px;
 }
 
-main > div > p {
-    font-size: 1.2em;
-    text-align: center;
-    line-height: 1.2em;
-    color: lightblue;
-}
-
-main > div {
+.divtexto {
     max-height: 700px;
     max-width: 350px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.2em;
+    color: var(--letrasconteudo);
+    margin-bottom: 70px;
 }
+
 
 main  img {
     margin: auto;
@@ -112,5 +120,5 @@ footer {
     border-radius: 10px;
     text-align: center;
     margin: 13px 3px -5px 3px;
-    color: lightblue;
+    color: var(--letrasconteudo);
 }
